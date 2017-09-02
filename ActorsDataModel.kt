@@ -5,9 +5,6 @@ import android.os.Parcelable
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-/**
- * Created by canopas on 01/09/17.
- */
 
 data class Actorwapper(@SerializedName("actors") internal val result: List<Actors>)
 
