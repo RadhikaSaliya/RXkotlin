@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 },
                         { e -> Log.e("error", e.message) },
-                        { Log.e("task complate", " ")
+                        {
                             if (Arr_list != null)
                             Arr_list = Arr
                             adptr = Cust_adptr(Arr_list, this@MainActivity)
